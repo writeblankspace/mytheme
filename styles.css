@@ -1,0 +1,52 @@
+:root {
+	--text: #CFCFCF;
+	--accent2: #FF2E60;
+	--accent1: #e86179;
+	--accent0: #d98d96;
+	--surface2: #3c0055;
+	--surface1: #280041;
+	--surface0: #18002e;
+	--background: #0b001a;
+	--theVoid: #000;
+}
+
+html {
+	color: var(--text);
+	background-color: var(--background);
+}
+
+body { 
+	margin: auto;
+	padding: 24px;
+	max-width: 75ch;
+}
+
+#title {
+	font-size: 2em;
+	text-align: center;
+}
+
+section {
+	padding: 16px;
+	border-radius: 5px;
+}
+
+section {
+	margin-top: 16px;
+}
+
+section:hover {
+	border: 2px solid var(--accent2);
+}
+
+.accent2 { color: var(--accent2); }
+.accent1 { color: var(--accent1); }
+.accent0 { color: var(--accent0); }
+.surface2 { background-color: var(--surface2); }
+.surface1 { background-color: var(--surface1); }
+.surface0 { background-color: var(--surface0); }
+.theVoid { background-color: var(--theVoid); }
+
+
+
+
