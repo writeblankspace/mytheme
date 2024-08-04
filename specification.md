@@ -143,7 +143,7 @@ Combinations not marked with an `X` should not be used as a foreground/backgroun
 
 It's up to you whether you want to make your site accessible or not, and how strict you want to go, but do try to follow the WCAG AAA standards if possible.
 
-> [!NOTES]
+> [!NOTE]
 > Because of `accent2`'s high saturation being similar to that of a `surface`, we need to make sure it is not used with a `surface` of similar value, so you cannot use an `accent2` as the foreground colour on a `surface1` or `surface2` element.
 > 
 > As `surface`s exist to draw the attention to an element, using an `accent`ed foreground is redundant and might end up making an element look "faded" or "greyed out" due to the lack of contrast. If you are looking to achieve this effect, see the previous heading on greyed-out elements.
